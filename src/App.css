@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background: #525252;
+  font-family: cursive;
+}
+
+input{
+  height: 2rem;
+  background: transparent;
+  border-right: hidden;
+  border-left: hidden;
+  border-top: hidden;
+  border-bottom: 2px solid gray;
+  font-weight: 600;
+}
+
+.child-div{
+  margin-top: 5rem;
+  width: 30%;
+  margin-left: 34%;
+  background: #d4d4d8;
+  border-radius: 10px;
+  position: absolute;
+  border: 2px solid #d4d4d8;
+}
+
+h1{
+    padding: 0.8rem;
+    background: #525252;
+    color: white;
+    margin-top: 2rem;
+    border-radius: 7px;
+}
+.btn{
+  margin-left: 15px;
+    height: 30px;
+    width: 30px;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    border-radius: 50%;
+    border: transparent;
+    background: #525252;
+}
+
+.btn:hover{
+  background-color: #35da35;
+  cursor: pointer;
+}
+
+.list-item-div{
+  display: flex;
+}
+.item-list{
+  list-style: none;
+  margin-left: 32%;
+  color: #525252;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2;
+}
+.trash{   
+    margin-left: 10px;
+    margin-top: 13px;
+    color: red;
+    cursor: pointer;
+}
+
+.remove-btn{
+  margin-bottom: 1rem;
+  height: 2rem;
+  border: none;
+  border-radius: 6px;
+  background: #525252;
+  color: white;
+  font-weight: 600;
+  margin-right: 18px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
